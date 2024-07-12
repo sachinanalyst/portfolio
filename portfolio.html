@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Chaudhary's Portfolio</title>
+     <!-- Font Awesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-3uVN0PjOTsPG+l4Zr+dXhFUBPHa0GbZ9PQDRk+0fjCH9T8XN6t6mBtU9W3l+9AK8L5oIowW8ADN8b8WJ2Y9/JA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="section">
+        <h1 id="welcome-text">Sachin Chaudhary</h1>
+        <p>Machine Learning Engineer</p>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>My name is Sachin Chaudhary, and I have developed a strong passion for data science. With an eagerness to learn new skills and push my limits, I have honed my communication and analytical abilities. I am excited to bring my enthusiasm and skills to a new opportunity.</p>
+    </section>
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <h3>Ik Gujral Punjab Technical Campus, Punjab</h3>
+                <p>BTech in CSE <br>2019-2023, 80%</p>
+            </div>
+            <div class="education-card">
+                <h3>Pt. Deen Dayal Intermediate College, U.P</h3>
+                <p>Senior Secondary - Science<br>2017-2018, 80.80%</p>
+            </div>
+            <div class="education-card">
+                <h3>Pt. Deen Dayal Intermediate College, U.P</h3>
+                <p>Metric - Science<br>2015-2016, 89.16%</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3 class="project-heading" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">Salary Prediction</h3>
+                <div class="project-description">
+                    <p>This model predicts the salary of the employee based on the year of experience and skill of the employee. This is a regression problem that is solved using linear regression, achieving 97% accuracy on the testing data.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="project-heading" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">Automated Cheque Processing</h3>
+                <div class="project-description">
+                    <p>Pre-processing cheque images using OpenCV and extracting the cheque no, account name, account number, date, signature, etc.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="project-heading" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">Market Segment Analysis of Electric Vehicle Market in India</h3>
+                <div class="project-description">
+                    <p>Utilized machine learning algorithms such as K-Mean Clustering in Python, with the support of NumPy and Pandas libraries, to perform efficient analysis.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="project-heading" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">Number Plate Detection and Reader System</h3>
+                <div class="project-description">
+                    <p>Developed an advanced number plate detection and reader system utilizing machine learning and computer vision techniques.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="project-heading" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">Axle Detection System</h3>
+                <div class="project-description">
+                    <p>Created an axle detection system for tracking and counting vehicle axles accurately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <div class="experience-details">
+                <strong>Machine Learning Engineer</strong><br>
+                <em>Intelliroute India Service LLP, Noida</em><br>
+                <em>Aug 2023 - Present</em>
+            </div>
+            <div class="experience-description">
+                <p>Developed an advanced number plate detection and reader system utilizing machine learning and computer vision techniques.</p>
+                <p>Created an axle detection system for tracking and counting vehicle axles accurately.</p>
+                <p>Implemented an automatic vehicle classification and counting system to enhance traffic analysis.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-card">
+            <div class="contact-item">
+                <strong>Name:</strong>
+                <span>Sachin Chaudhary</span>
+            </div>
+            <div class="contact-item">
+                <strong>Phone:</strong>
+                <span>+91 7267860840</span>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <span><a href="mailto:sachinchaudhari479@gmail.com">sachinchaudhari479@gmail.com</a></span>
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong>
+                <span>New Delhi, Delhi</span>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Sachin Chaudhary. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

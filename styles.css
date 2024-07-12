@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1em;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.education-card {
+    background-color: #f4f4f4;
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* CSS for Project Section */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center; /* Center align text within project cards */
+}
+
+.project-heading {
+    margin-bottom: 0.5em;
+}
+
+.project-description {
+    display: none;
+    margin-top: 0.5em;
+}
+/* CSS remains the same as provided earlier */
+.project-description {
+    display: none; /* Hide project descriptions by default */
+}
+
+/* CSS for Experience Section */
+.experience-item {
+    margin-bottom: 1.5em;
+}
+
+.experience-details {
+    margin-bottom: 0.5em;
+}
+
+.experience-description {
+    margin-left: 1.5em; /* Indent the description */
+}
+
+.experience-description p {
+    margin-bottom: 0.5em; /* Add space between paragraphs */
+}
+
+/* CSS for Contact Section */
+.contact-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-item strong {
+    display: inline-block;
+    width: 120px; /* Adjust width as needed */
+    font-weight: bold;
+}
+
+.contact-item span {
+    display: inline-block;
+    width: calc(100% - 120px); /* Adjust width based on strong width */
+}
+
+.contact-item a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+/* CSS for Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    margin: 0 8px; /* Adjusted margin */
+    font-size: 16px; /* Smaller font size */
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links a i {
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+.copyright {
+    font-size: 14px;
+    flex-grow: 1; /* Allows the copyright text to take up remaining space */
+    text-align: center; /* Centers the copyright text */
+}
+
+
+/* Typewriter Effect */
+#welcome-text {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .project-card, .education-card {
+        width: 100%;
+    }
+}
